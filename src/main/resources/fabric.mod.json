@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "trash-chest",
+	"version": "${version}",
+	"name": "Trash Chest",
+	"description": "Create a chest that voids everything put into it, just by naming it!",
+	"authors": [
+		"Emissivity"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPLv3",
+	"icon": "assets/trash-chest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"emissivity.trashchest.TrashChest"
+		]
+	},
+	"mixins": [
+		"trash-chest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
