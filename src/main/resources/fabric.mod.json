@@ -8,7 +8,7 @@
 		"Emissivity"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/OptionalAura/TrashChest"
 	},
 	"license": "GPLv3",
 	"icon": "assets/trash-chest/icon.png",
